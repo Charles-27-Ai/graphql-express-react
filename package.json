@@ -1,0 +1,8 @@
+{
+  "name": "graphql-express-react",
+  "version": "1.0.0",
+  "description": "node + react project to test GraphQL",
+  "main": "index.js",
+  "author": "Charles Ai",
+  "license": "MIT"
+}
