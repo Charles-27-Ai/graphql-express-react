@@ -20,7 +20,6 @@ const LaunchType = new GraphQLObjectType({
     launch_date_local: { type: GraphQLString },
     launch_year: { type: GraphQLString },
     launch_success: { type: GraphQLBoolean },
-    flight_number: { type: RocketType },
     rocket: {type: RocketType}  // foreign key
   }),
 });
