@@ -33,7 +33,7 @@ const HomePage: React.FunctionComponent<any> = props => {
     if (error) return <h2 className="text-center">Error: {error.message}</h2>
     return (
         <div className="container">
-            <h1 className="text-center">List of Launches</h1>
+            <h1 className="text-center mb-3">List of Launches</h1>
             <div className="card my-2">
                 <div className="card-body">
                     {/* <p>{JSON.stringify(data.launches)}</p> */}

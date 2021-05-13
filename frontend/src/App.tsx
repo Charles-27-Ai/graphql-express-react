@@ -10,8 +10,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="container">
-          <img src={logo} alt="SpaceX Logo" className="img-fluid" />
+        <div className="container text-center">
+          <img src={logo} alt="SpaceX Logo" className="img-fluid mt-2"
+            style={{height: '20vh'}}
+           />
         </div>
       </header>
       <div className="App-body">
